@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "cpp",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "i-a_width",
+      "label": "a_width",
+      "position": {
+        "x": 136,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "i-rf24",
+      "label": "rf24",
+      "position": {
+        "x": 68,
+        "y": 102
+      },
+      "type": "@/input-rf24"
+    },
+    {
+      "id": "i-trigger",
+      "label": "trigger",
+      "position": {
+        "x": 204,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "o-dev",
+      "label": "dev",
+      "position": {
+        "x": 68,
+        "y": 306
+      },
+      "type": "@/output-rf24"
+    },
+    {
+      "id": "o-done",
+      "label": "done",
+      "position": {
+        "x": 136,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "cpp",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "i-rf24",
+      "label": "rf24",
+      "position": {
+        "x": 68,
+        "y": 102
+      },
+      "type": "@/input-rf24"
+    },
+    {
+      "id": "i-rx_ready",
+      "label": "rx_ready",
+      "position": {
+        "x": 272,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "i-trigger",
+      "label": "trigger",
+      "position": {
+        "x": 340,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "i-tx_fail",
+      "label": "tx_fail",
+      "position": {
+        "x": 204,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "i-tx_ok",
+      "label": "tx_ok",
+      "position": {
+        "x": 136,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "o-dev",
+      "label": "dev",
+      "position": {
+        "x": 68,
+        "y": 306
+      },
+      "type": "@/output-rf24"
+    },
+    {
+      "id": "o-done",
+      "label": "done",
+      "position": {
+        "x": 136,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

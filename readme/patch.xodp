@@ -1,0 +1,16 @@
+{
+  "comments": [
+    {
+      "content": "rf24-ll\nA library for NRF24L01(+) communication.\nOptimized library for nRF24L01(+) that is simple to use for beginners, but yet offers a lot for advanced users. It also has a lot of good examples how to use the library.\n\nMechanically converted by https://forum.xod.io/u/awgrover using github.com:awgrover/arduino-2-xod from:\nRF24 by TMRh20. Version 1.3.1\nhttps://github.com/nRF24/RF24\n\nWarnings:\n* Skipped read(..) (line 205) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped write(..) (line 230) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped openWritingPipe(..) (line 257) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped openReadingPipe(..) (line 287) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped writeFast(..) (line 408) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped writeBlocking(..) (line 449) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped writeAckPayload(..) (line 515) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped whatHappened(..) (line 537) because we don't know the parameter type TypeKind.LVALUEREFERENCE:1\n* Skipped startFastWrite(..) (line 563) because we don't know the parameter type TypeKind.POINTER:8\n* Skipped startWrite(..) (line 585) because we don't know the parameter type TypeKind.POINTER:8",
+      "id": "readme",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "height": 555,
+        "width": 510
+      }
+    }
+  ]
+}
