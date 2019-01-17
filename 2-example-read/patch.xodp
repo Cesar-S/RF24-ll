@@ -1,0 +1,321 @@
+{
+  "comments": [
+    {
+      "content": "### Bad\nWe need `buffer` to be `done` before we read,\nbut we don't have `wait-all` yet,\nso, wait-one-transaction should do it",
+      "id": "BkEumP0ME",
+      "position": {
+        "x": 340,
+        "y": 204
+      },
+      "size": {
+        "height": 153,
+        "width": 374
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "BJRJUv0zN",
+      "input": {
+        "nodeId": "rydy8vRG4",
+        "pinKey": "rkjBh8RfN"
+      },
+      "output": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "o-rf24"
+      }
+    },
+    {
+      "id": "H1weUDCz4",
+      "input": {
+        "nodeId": "ByaoVw0GV",
+        "pinKey": "rkmiHCaIZ"
+      },
+      "output": {
+        "nodeId": "rydy8vRG4",
+        "pinKey": "SyxJO3URGE"
+      }
+    },
+    {
+      "id": "H1z-VDRfE",
+      "input": {
+        "nodeId": "rk0gEw0GN",
+        "pinKey": "rkmiHCaIZ"
+      },
+      "output": {
+        "nodeId": "rJhrQDRfN",
+        "pinKey": "o-done"
+      }
+    },
+    {
+      "id": "HJXASD0fE",
+      "input": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "i-_cspin"
+      },
+      "output": {
+        "nodeId": "HJoYEPRGN",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "HJ_GvPCGN",
+      "input": {
+        "nodeId": "rydy8vRG4",
+        "pinKey": "r1Y1vvCMV"
+      },
+      "output": {
+        "nodeId": "r1_PEwAzV",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "HJlm4v0GN",
+      "input": {
+        "nodeId": "By6zNw0fN",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk0gEw0GN",
+        "pinKey": "S1yaHC6UW"
+      }
+    },
+    {
+      "id": "HybxLwRz4",
+      "input": {
+        "nodeId": "rydy8vRG4",
+        "pinKey": "H1pf38CzE"
+      },
+      "output": {
+        "nodeId": "rJhrQDRfN",
+        "pinKey": "r1B7l2DM4"
+      }
+    },
+    {
+      "id": "S1Cx8DRfE",
+      "input": {
+        "nodeId": "H1FcQw0z4",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "o-done"
+      }
+    },
+    {
+      "id": "S1ZRBDAfV",
+      "input": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "i-_cepin"
+      },
+      "output": {
+        "nodeId": "rkIYVPRGE",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "S1rbVwCMV",
+      "input": {
+        "nodeId": "rk0gEw0GN",
+        "pinKey": "rJUjrCTUb"
+      },
+      "output": {
+        "nodeId": "rJhrQDRfN",
+        "pinKey": "B1uQZOPzN"
+      }
+    },
+    {
+      "id": "SJgWLDRzN",
+      "input": {
+        "nodeId": "rydy8vRG4",
+        "pinKey": "r1gir3LCfE"
+      },
+      "output": {
+        "nodeId": "H1FcQw0z4",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "SJsD4vCM4",
+      "input": {
+        "nodeId": "rJhrQDRfN",
+        "pinKey": "i-bytes"
+      },
+      "output": {
+        "nodeId": "r1_PEwAzV",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "r1WaiNPRzE",
+      "input": {
+        "nodeId": "rJxaj4PRGE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ByaoVw0GV",
+        "pinKey": "S1yaHC6UW"
+      }
+    },
+    {
+      "id": "r1bwCED0ME",
+      "input": {
+        "nodeId": "BylwANwCGN",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SywRNP0fN",
+        "pinKey": "S1yaHC6UW"
+      }
+    },
+    {
+      "id": "rJ8RrvRM4",
+      "input": {
+        "nodeId": "SywRNP0fN",
+        "pinKey": "rkmiHCaIZ"
+      },
+      "output": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "o-done"
+      }
+    },
+    {
+      "id": "ryBlIPCzV",
+      "input": {
+        "nodeId": "ByaoVw0GV",
+        "pinKey": "rJUjrCTUb"
+      },
+      "output": {
+        "nodeId": "rydy8vRG4",
+        "pinKey": "HJe-R8Rz4"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Bk2aHPAMV",
+      "position": {
+        "x": 136,
+        "y": 0
+      },
+      "type": "@/rf24"
+    },
+    {
+      "id": "By6zNw0fN",
+      "position": {
+        "x": 476,
+        "y": 102
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "boundLiterals": {
+        "S10qrR6UZ": "\"OK\"",
+        "rygjH06LW": "\"ERR\""
+      },
+      "id": "ByaoVw0GV",
+      "position": {
+        "x": 238,
+        "y": 408
+      },
+      "type": "xod/core/select"
+    },
+    {
+      "id": "BylwANwCGN",
+      "position": {
+        "x": 136,
+        "y": 102
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "H1FcQw0z4",
+      "position": {
+        "x": 204,
+        "y": 204
+      },
+      "type": "xod/core/defer"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "4"
+      },
+      "id": "HJoYEPRGN",
+      "position": {
+        "x": 170,
+        "y": -102
+      },
+      "type": "xod/core/constant-number"
+    },
+    {
+      "boundLiterals": {
+        "S10qrR6UZ": "\"OK\"",
+        "rygjH06LW": "\"ERR\""
+      },
+      "id": "SywRNP0fN",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "xod/core/select"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "10"
+      },
+      "id": "r1_PEwAzV",
+      "position": {
+        "x": 272,
+        "y": -102
+      },
+      "type": "xod/core/constant-number"
+    },
+    {
+      "id": "rJhrQDRfN",
+      "position": {
+        "x": 272,
+        "y": 0
+      },
+      "type": "awgrover/buffer1/buffer1"
+    },
+    {
+      "id": "rJxaj4PRGE",
+      "position": {
+        "x": 374,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "boundLiterals": {
+        "S10qrR6UZ": "\"OK\"",
+        "rygjH06LW": "\"ERR\""
+      },
+      "id": "rk0gEw0GN",
+      "position": {
+        "x": 340,
+        "y": 102
+      },
+      "type": "xod/core/select"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "3"
+      },
+      "id": "rkIYVPRGE",
+      "position": {
+        "x": 136,
+        "y": -102
+      },
+      "type": "xod/core/constant-number"
+    },
+    {
+      "id": "rydy8vRG4",
+      "position": {
+        "x": 204,
+        "y": 306
+      },
+      "type": "@/read"
+    }
+  ]
+}

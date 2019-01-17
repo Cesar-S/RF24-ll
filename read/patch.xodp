@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "B1P_nUAfN",
+      "position": {
+        "x": 68,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "Bk1u2UAfN",
+      "label": "dev",
+      "position": {
+        "x": 34,
+        "y": 204
+      },
+      "type": "@/output-rf24"
+    },
+    {
+      "id": "H1pf38CzE",
+      "label": "buffer1",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "awgrover/buffer1/input-buffer1"
+    },
+    {
+      "description": "count > buffer length",
+      "id": "HJe-R8Rz4",
+      "label": "ERR",
+      "position": {
+        "x": 102,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SyxJO3URGE",
+      "label": "done",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "r1Y1vvCMV",
+      "label": "count",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "r1gir3LCfE",
+      "label": "trigger",
+      "position": {
+        "x": 238,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rkjBh8RfN",
+      "label": "rf24",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "@/input-rf24"
+    }
+  ]
+}
