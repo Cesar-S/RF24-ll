@@ -1,18 +1,14 @@
 {
   "nodes": [
     {
-      "id": "Hka9LlM-4",
-      "position": {
-        "x": 68,
-        "y": 306
+      "boundLiterals": {
+        "SJ4mBTgM4": "D3",
+        "r1WXS6eMN": "D2"
       },
-      "type": "@/begin"
-    },
-    {
       "id": "rJCELlzbE",
       "position": {
         "x": 68,
-        "y": 102
+        "y": 204
       },
       "type": "@/rf24"
     }

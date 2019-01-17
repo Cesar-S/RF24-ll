@@ -2,15 +2,16 @@
   "description": "constructor\nhttps://github.com/nRF24/RF24\nArduino: RF24\nXOD: @/input-rf24\ncpp postfix: rf24",
   "nodes": [
     {
-      "id": "cpp",
+      "id": "BytpkqRG4",
+      "label": "_cspin",
       "position": {
-        "x": 68,
-        "y": 204
+        "x": 136,
+        "y": 102
       },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
+      "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "i-_cepin",
+      "id": "Hywh1qCG4",
       "label": "_cepin",
       "position": {
         "x": 68,
@@ -19,13 +20,21 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "i-_cspin",
-      "label": "_cspin",
+      "id": "S1S7uaxf4",
+      "label": "trigger",
       "position": {
-        "x": 136,
+        "x": 204,
         "y": 102
       },
-      "type": "xod/patch-nodes/input-number"
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "cpp",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
       "id": "o-done",

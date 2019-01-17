@@ -4,8 +4,8 @@
       "content": "### Bad\nWe need `buffer` to be `done` before we read,\nbut we don't have `wait-all` yet,\nso, wait-one-transaction should do it",
       "id": "BkEumP0ME",
       "position": {
-        "x": 340,
-        "y": 204
+        "x": 476,
+        "y": 0
       },
       "size": {
         "height": 153,
@@ -23,6 +23,17 @@
       "output": {
         "nodeId": "Bk2aHPAMV",
         "pinKey": "o-rf24"
+      }
+    },
+    {
+      "id": "By0Ry9AGV",
+      "input": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "BytpkqRG4"
+      },
+      "output": {
+        "nodeId": "HJoYEPRGN",
+        "pinKey": "B1x2RV3eZ"
       }
     },
     {
@@ -45,17 +56,6 @@
       "output": {
         "nodeId": "rJhrQDRfN",
         "pinKey": "o-done"
-      }
-    },
-    {
-      "id": "HJXASD0fE",
-      "input": {
-        "nodeId": "Bk2aHPAMV",
-        "pinKey": "i-_cspin"
-      },
-      "output": {
-        "nodeId": "HJoYEPRGN",
-        "pinKey": "B1x2RV3eZ"
       }
     },
     {
@@ -100,17 +100,6 @@
       "output": {
         "nodeId": "Bk2aHPAMV",
         "pinKey": "o-done"
-      }
-    },
-    {
-      "id": "S1ZRBDAfV",
-      "input": {
-        "nodeId": "Bk2aHPAMV",
-        "pinKey": "i-_cepin"
-      },
-      "output": {
-        "nodeId": "rkIYVPRGE",
-        "pinKey": "B1x2RV3eZ"
       }
     },
     {
@@ -180,6 +169,17 @@
       }
     },
     {
+      "id": "rkT0k50ME",
+      "input": {
+        "nodeId": "Bk2aHPAMV",
+        "pinKey": "Hywh1qCG4"
+      },
+      "output": {
+        "nodeId": "rkIYVPRGE",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
       "id": "ryBlIPCzV",
       "input": {
         "nodeId": "ByaoVw0GV",
@@ -203,8 +203,8 @@
     {
       "id": "By6zNw0fN",
       "position": {
-        "x": 476,
-        "y": 102
+        "x": 306,
+        "y": 204
       },
       "type": "xod/core/watch"
     },
@@ -215,24 +215,24 @@
       },
       "id": "ByaoVw0GV",
       "position": {
-        "x": 238,
-        "y": 408
+        "x": 136,
+        "y": 306
       },
       "type": "xod/core/select"
     },
     {
       "id": "BylwANwCGN",
       "position": {
-        "x": 136,
-        "y": 102
+        "x": 0,
+        "y": 204
       },
       "type": "xod/core/watch"
     },
     {
       "id": "H1FcQw0z4",
       "position": {
-        "x": 204,
-        "y": 204
+        "x": 170,
+        "y": 102
       },
       "type": "xod/core/defer"
     },
@@ -273,7 +273,7 @@
     {
       "id": "rJhrQDRfN",
       "position": {
-        "x": 272,
+        "x": 306,
         "y": 0
       },
       "type": "awgrover/buffer1/buffer1"
@@ -281,7 +281,7 @@
     {
       "id": "rJxaj4PRGE",
       "position": {
-        "x": 374,
+        "x": 136,
         "y": 408
       },
       "type": "xod/core/watch"
@@ -293,7 +293,7 @@
       },
       "id": "rk0gEw0GN",
       "position": {
-        "x": 340,
+        "x": 306,
         "y": 102
       },
       "type": "xod/core/select"
@@ -312,8 +312,8 @@
     {
       "id": "rydy8vRG4",
       "position": {
-        "x": 204,
-        "y": 306
+        "x": 136,
+        "y": 204
       },
       "type": "@/read"
     }

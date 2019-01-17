@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "description": "use rf24",
+      "id": "Hka2dplz4",
+      "position": {
+        "x": 238,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/deprecated"
+    },
+    {
       "id": "cpp",
       "position": {
         "x": 68,

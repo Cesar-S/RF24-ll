@@ -16,18 +16,20 @@ using Type = RF24*; // 'Type' is assumed by xod code-generator
 {{ GENERATED_CODE }}
 
 void evaluate(Context ctx) {
-  // It should be evaluated only once on the first (setup) transaction
-  if (!isSettingUp()) return; // FIXME: relax this?
 
+  if (isSettingUp()){ // FIXME: relax this?
   auto state = getState(ctx);
-
-  // var names are valid c++ because we got them from the arglist of the c++ constructor
-  auto _cepin = static_cast<int> (getValue<input__cepin>(ctx)); // int
-  auto _cspin = static_cast<int> (getValue<input__cspin>(ctx)); // int
-  
-
+ // var names are valid c++ because we got them from the arglist of the c++ constructor
+  auto _cepin = (int)getValue<input__cepin>(ctx); // int
+  auto _cspin = (int)getValue<input__cspin>(ctx); // int
   Type object = new (state->mem) RF24( _cepin, _cspin );
-
   emitValue<output_rf24>(ctx, object);
-  emitValue<output_done>(ctx, 1);
+      return;}
+
+  if (isInputDirty<input_trigger>(ctx)) {
+    auto state = getState(ctx);
+    auto object = reinterpret_cast<RF24*>(state->mem);
+      object->begin();
+      emitValue<output_done>(ctx, 1);
+  }
 }
