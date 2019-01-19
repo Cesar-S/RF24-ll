@@ -33,7 +33,7 @@ void evaluate(Context ctx) {
         }
 
         else {
-            char* byte_buffer = buffer1->buffer;
+            char* byte_buffer = (char*) buffer1->buffer;
 
             _object->read(byte_buffer, count); // void(void*, uint8_t)
 
